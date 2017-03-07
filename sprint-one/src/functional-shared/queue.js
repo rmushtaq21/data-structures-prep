@@ -19,7 +19,7 @@ queueMethods.enqueue = function(value) {
 }
 
 queueMethods.dequeue = function(value) {
-  if(queueMethods.size() <= 0) {
+  if(this.size() <= 0) {
     return;
   }
 
